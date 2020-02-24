@@ -24,7 +24,7 @@ Whether it's your own or from a third-party, your client app project needs sever
 
 *To avoid out-of-sync code, we recommend you set the include path in your client project to include the DLL header files directly from your DLL project. Also, set the library path in your client project to include the DLL import libraries from the DLL project. And finally, copy the built DLL from the DLL project into your client build output directory. This step allows your client app to use the same DLL code you build.*  
 
-Follow the **Original Source**, and take a look at how to:  
+Follow the **[Original Source](https://docs.microsoft.com/en-us/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp?view=vs-2019)**, and take a look at how to:  
 1. add the **DLL header** to the include path
 2. add the **DLL import library** to your project
 3. copy the **DLL** in a post-build event
