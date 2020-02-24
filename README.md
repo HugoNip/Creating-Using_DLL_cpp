@@ -13,5 +13,7 @@ This code covers these tasks:
 5. Run the completed app.
 
 Platform: Windows 10 x64
+
 IDE: Visual Studio 2015
+
 Configuration: Debug mode
