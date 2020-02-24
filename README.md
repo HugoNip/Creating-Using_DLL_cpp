@@ -15,7 +15,7 @@ This code shows a sample of using the Visual Studio IDE to create a dynamic link
 
 **Platform:** Windows 10 x64.  
 **IDE:** Visual Studio 2017.  
-**Configuration:** Debug mode.  
+**Configuration:** Debug mode, x64.  
 
 **Create a client app that uses the DLL**  
 When you create a DLL, think about how client apps may use it. To call the functions or access the data exported by a DLL, client source code must have the declarations available at compile time. At link time, the linker requires information to resolve the function calls or data accesses. A DLL supplies this information in an import library, a file that contains information about how to find the functions and data, instead of the actual code. And at run time, the DLL must be available to the client, in a location that the operating system can find.
