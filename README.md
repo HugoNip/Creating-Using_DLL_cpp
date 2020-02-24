@@ -11,3 +11,7 @@ This code covers these tasks:
 3. Create a console app project in Visual Studio.
 4. Use the functions and variables imported from the DLL in the console app.
 5. Run the completed app.
+
+Platform: Windows 10 x64
+IDE: Visual Studio 2015
+Configuration: Debug mode
