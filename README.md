@@ -14,5 +14,5 @@ This code shows a sample of using the Visual Studio IDE to create a dynamic link
 5. Run the completed app.  
 
 **Platform:** Windows 10 x64.  
-**IDE:** Visual Studio 2015.  
+**IDE:** Visual Studio 2017.  
 **Configuration:** Debug mode.  
