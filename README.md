@@ -24,8 +24,7 @@ Whether it's your own or from a third-party, your client app project needs sever
 
 *To avoid out-of-sync code, we recommend you set the include path in your client project to include the DLL header files directly from your DLL project. Also, set the library path in your client project to include the DLL import libraries from the DLL project. And finally, copy the built DLL from the DLL project into your client build output directory. This step allows your client app to use the same DLL code you build.*  
 
-**To add the DLL header to the include path**
-1. Right-click on the **MathClient** node in **Solution Explorer** to open the **Property** Pages dialog.  
-2. In the **Configuration** drop-down box, select **All Configurations** if it's not already selected.  
-3. In the left pane, select **Configuration Properties > C/C++ > General**.  
-4. In the property pane, select the drop-down control next to the **Additional Include Directories** edit box, and then choose **Edit**.
+Follow the **Original Source**, and take a look at how to:  
+1. add the **DLL header** to the include path
+2. add the **DLL import library** to your project
+3. copy the **DLL** in a post-build event
