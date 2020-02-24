@@ -12,8 +12,6 @@ This code covers these tasks:
 4. Use the functions and variables imported from the DLL in the console app.
 5. Run the completed app.
 
-Platform: Windows 10 x64
-
-IDE: Visual Studio 2015
-
-Configuration: Debug mode
+Platform: Windows 10 x64.
+IDE: Visual Studio 2015.
+Configuration: Debug mode.
